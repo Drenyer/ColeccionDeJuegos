@@ -14,6 +14,7 @@
 		9D3A28D72CAE10690084B534 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A28D52CAE10690084B534 /* ColeccionDeJuegos.xcdatamodeld */; };
 		9D3A28D92CAE106B0084B534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A28D82CAE106B0084B534 /* Assets.xcassets */; };
 		9D3A28DC2CAE106B0084B534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3A28DA2CAE106B0084B534 /* LaunchScreen.storyboard */; };
+		9D3A28E42CAE188A0084B534 /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3A28E32CAE188A0084B534 /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9D3A28D82CAE106B0084B534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3A28DB2CAE106B0084B534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3A28DD2CAE106B0084B534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D3A28E32CAE188A0084B534 /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		9D3A28C02CAE10690084B534 = {
 			isa = PBXGroup;
 			children = (
+				9D3A28E32CAE188A0084B534 /* JuegosViewController.swift */,
 				9D3A28CB2CAE10690084B534 /* ColeccionDeJuegos */,
 				9D3A28CA2CAE10690084B534 /* Products */,
 			);
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3A28E42CAE188A0084B534 /* JuegosViewController.swift in Sources */,
 				9D3A28D12CAE10690084B534 /* ViewController.swift in Sources */,
 				9D3A28CD2CAE10690084B534 /* AppDelegate.swift in Sources */,
 				9D3A28CF2CAE10690084B534 /* SceneDelegate.swift in Sources */,
